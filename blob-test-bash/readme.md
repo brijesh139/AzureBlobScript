@@ -5,7 +5,7 @@
   ## Steps to enable Windows Subsystem for Linux (WSL)
   * In windows search type "Turn windows feature on or off" and select
   * Look for Windows Subsystem for Linux and Virtual machine paltform and select check box
-  * Or You can just run this command from PowerShell as admin to enable WSL ```dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart``
+  * Or You can just run this command from PowerShell as admin to enable WSL ```dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart```
   * Restart system
 * Install and setup Ubuntu from microsoft store (Might ask for restart)
 * Open Ubuntu and run command ```curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash`` to install packages
