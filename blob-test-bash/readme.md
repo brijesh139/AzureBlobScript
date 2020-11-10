@@ -8,7 +8,7 @@
   * Or You can just run this command from PowerShell as admin to enable WSL ```dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart```
   * Restart system
 * Install and setup Ubuntu from microsoft store (Might ask for restart)
-* Open Ubuntu and run command ```curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash`` to install packages
+* Open Ubuntu and run command ```curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash``` to install packages
 
 # Steps to run script
 * Copy given Azureblob.sh file to your local machine
